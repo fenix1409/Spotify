@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image: url('./assets/images/Linear.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow-y: hidden;
+    width: 100%;
+}
+.active{
+    opacity: 1;
+}
+.navigate-btn{
+    background-color: rgba(0,0,0,50%);
+}
+.bg-item{
+    background-color: rgba(255,255,255,20%);
+}
+.music-card{
+    background-color: rgba(255,255,255,4%);
+}
+.single-music{
+    background-image: url('./assets/images/Linear(1).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
